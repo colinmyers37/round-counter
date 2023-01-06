@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
+import GlobalNavbar from './components/Layout/GlobalNavbar';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-center">Hello WOrld</h1>
-    </div>
+    <>
+      <GlobalNavbar />
+    </>
   );
 }
 
