@@ -7,13 +7,9 @@ import Button from '../UI/Button';
 const GlobalNavbar = () => {
   const [openNav, setOpenNav] = useState(false);
 
-  // function handleNav() {
-  //   setOpenNav(!openNav);
-  // }
-
   return (
     <div className="shadow-md w-full bg-white">
-      <div className="md:flex items-center justify-between bg-transparent py-2 md:px-10 px-7">
+      <div className="md:flex items-center justify-between bg-white py-2 md:px-10 px-7">
         <div
           className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
     text-gray-800"
@@ -34,7 +30,7 @@ const GlobalNavbar = () => {
           }`}
         >
           {pages.map((page) => (
-            <li key={page} className="md:ml-8 text-xl md:my-0 my-5">
+            <li key={page} className="md:ml-8 text-l md:my-0 my-5">
               <NavLink
                 to={`/${page}`}
                 className="text-gray-800 hover:text-gray-400 duration-500"
