@@ -9,7 +9,7 @@ app.use(cors());
 // require("./routes/routes")(app);
 const port = process.env.PORT || 4000;
 
-const { sequelize: any } = require('./database/sequelize');
+const { sequelize } = require('./database/sequelize');
 
 sequelize
   .sync({ alter: true })
