@@ -39,7 +39,7 @@ const GlobalNavbar = () => {
               </NavLink>
             </li>
           ))}
-          <Button>Contact Us</Button>
+          <Button>Logout</Button>
         </ul>
       </div>
     </div>
