@@ -12,7 +12,7 @@ function App() {
       <GlobalNavbar />
       <main>
         <Routes>
-          <Route index path="aAbout" element={<About />} />
+          <Route index path="about" element={<About />} />
           <Route path="/armory" element={<Armory />} />
           <Route path="/roundcount" element={<RoundCount />} />
         </Routes>
