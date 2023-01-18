@@ -32,7 +32,7 @@ const GlobalNavbar = () => {
           {pages.map((page) => (
             <li key={page} className="md:ml-8 text-l md:my-0 my-5">
               <NavLink
-                to={`/${page}`}
+                to={`/${page.toLowerCase()}`}
                 className="text-gray-800 hover:text-gray-400 duration-500"
               >
                 {page}
